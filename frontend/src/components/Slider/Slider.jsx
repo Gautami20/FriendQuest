@@ -44,16 +44,6 @@ function CarouselSlide() {
     </Carousel>
   );
 }
-// 
-// 
-//
-// 
-// 
-// 
 
-// 
-// 
-// 
 export default CarouselSlide;
-
-// all girls 
+ 
