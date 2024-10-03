@@ -44,6 +44,7 @@ app.post("/login", async (req, res) => {
         if (user) {
             if (password === user.password) {
                 res.send({ message: "Login Successful", user: user });
+                res.redirect('/find');
             } else {
                 res.send({ message: "Password didn't match" });
             }
